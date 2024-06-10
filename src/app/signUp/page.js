@@ -1,9 +1,8 @@
 import Head from "next/head";
-import { FaFacebook, FaGoogle, FaLinkedin, FaRegEnvelope} from 'react-icons/fa';
-import { IoMdBusiness } from "react-icons/io";
-import { MdLockOutline} from 'react-icons/md';
 
-import '../input.css'
+import { FaFacebook, FaGoogle, FaLinkedin, FaRegEnvelope} from 'react-icons/fa';
+import { MdLockOutline} from 'react-icons/md';
+import Stepper from '../components/stepper'
 
 export default function Home() {
   return (
@@ -14,30 +13,25 @@ export default function Home() {
         <div className="bg-white rounded-2xl shadow-2xl flex w-2/3 max-w-4xl">
 
 
-          <div className="w-3/5 p-5">
-            <p className="text-blue-500 font-bold text-2xl">Sign Up</p>
-            <div className="border-2 w-10 border-blue-500 inline-block mb-2"></div>
-                <div className="py-30 px-12">
 
-                    
+       
 
 
+          <div className="flex flex-col items-center p-10">
 
+          <p className="text-blue-500 font-bold text-2xl mb-3">Create Account</p>
+          <div className="border-2 w-10 border-blue-500 inline-block mb-5"></div>
 
-
-            </div>
+            <Stepper/>
           </div>
 
 
 
+          <div className="w-2/5 text-white rounded-tr-2xl rounded-br-2xl py-36 px-12">
+          <img src="https://www.allen.ac.in/apps2223/assets/images/reset-password.jpg"></img>
+          </div>
 
 
-
-
-
-
-          <img className="w-2/10" src="https://st.depositphotos.com/18722762/51522/v/450/depositphotos_515228814-stock-illustration-online-registration-sign-login-account.jpg" ></img>
-            <div className="border-2 w-10 border-white inline-block mb-2"></div>
 
         </div>
 

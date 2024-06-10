@@ -1,13 +1,17 @@
-import Stepper from "./Stepper"
+import React  from "react";
+import Form from "./admin"
 
-export default function Home(){
+export default function(){
 
     return(
 
-        <div>
-            <Stepper/>
-        </div>
-
-    );
+    
+        <Form/>
+    )
 
 }
+
+ 
+
+
+
