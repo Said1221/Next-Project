@@ -18,7 +18,6 @@ export default function RootLayout({
         <SideNav/>
         <main className="flex-1">
         <Navbar/>
-        
         {children}
         </main>
         </div>

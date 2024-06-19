@@ -56,7 +56,7 @@ export default function Result(){
 
 
         <div className='flex justify-between'>
-        <a href="../subscription" className="border-2 border-red-500 mr-2 rounded-full px-12 py-2 inline-block font-semibold hover:border-white hover:text-red-500">Back</a>
+        <a href="./subscription" className="border-2 border-red-500 mr-2 rounded-full px-12 py-2 inline-block font-semibold hover:border-white hover:text-red-500">Back</a>
         <a href="#" className="border-2 border-green-500 rounded-full px-12 py-2 inline-block font-semibold hover:border-white hover:text-green-500">Join</a>
 
         </div>
