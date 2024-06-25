@@ -13,6 +13,8 @@ import table from '../images/table.png';
 
 
 export default function Home () {
+
+  
     return (
 
         <div>

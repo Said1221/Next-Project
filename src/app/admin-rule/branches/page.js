@@ -12,8 +12,7 @@ import Swal from 'sweetalert2';
 const Home = () => {
 
    const [drop , setDrop] = useState(false);
-
-   return (
+      return (
 <>
         
       <div>

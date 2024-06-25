@@ -6,8 +6,17 @@ import sweet from '../images/sweets.png';
 import food from '../images/diet.png';
 import drink from '../images/drink.png';
 import table from '../images/table.png';
+import Select from 'react-select'
+import CreatableSelect from 'react-select/creatable';
 
 
+
+
+const aquaticCreatures = [
+  { label: 'food', value: 'food' },
+  { label: 'sweet', value: 'sweet' },
+  { label: 'drink', value: 'drink' },
+];
 
 
 
@@ -67,22 +76,17 @@ export default function Home () {
     <div className="flex flex-col">
     <h2 className='text-blue-500 font-extrabold mb-2'>select kitchens</h2>
     
-    <div className="flex justify-between items-center mb-5">
+    <div className="flex justify-center items-center mb-5">
 
-        <div className="flex flex-col items-center justify-center">
-        <Image className="mr-2 mb-2" src= {sweet} width={40}/>
-        <label className="flex item-center text-xs"><input type="checkbox" name="sweet" className="mr-1"/>Sweet</label>
-        </div>
 
-        <div className="flex flex-col items-center justify-center">
-        <Image className="mr-2 mb-2" src= {food} width={40}/>
-        <label className="flex item-center text-xs"><input type="checkbox" name="foods" className="mr-1"/>Foods</label>
-        </div>
+    <CreatableSelect  isMulti options={aquaticCreatures} classNamePrefix="dsadsa"/>
+    
 
-        <div className="flex flex-col items-center justify-center">
-        <Image className="mr-2 mb-2" src= {drink} width={40}/>
-        <label className="flex item-center text-xs"><input type="checkbox" name="drinks" className="mr-1"/>Drinks</label>
-        </div>
+  
+
+      
+
+      
 
     </div>
     </div>

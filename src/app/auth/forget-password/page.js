@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Stepper from '../components/Stepper'
+import Stepper2 from '../components/Stepper2'
 
 export default function Home() {
   return (
@@ -10,11 +10,11 @@ export default function Home() {
         <div className="flex items-center justify-center bg-white rounded-2xl shadow-2xl flex max-w-4xl">
 
           <div className="flex flex-col items-center p-10">
-            <p className="text-blue-500 font-bold text-2xl mb-3">Create Account</p>
+            <p className="text-blue-500 font-bold text-2xl mb-3">Find Your Account</p>
             <div className="border-2 w-10 border-blue-500 inline-block mb-5"></div>
             
             
-            <Stepper/>
+            <Stepper2/>
           
           </div>
 

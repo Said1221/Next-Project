@@ -1,11 +1,19 @@
-import Head from "next/head";
-
+"use client"
 import { FaFacebook, FaGoogle, FaLinkedin, FaRegEnvelope} from 'react-icons/fa';
 import { RiLockPasswordLine  } from "react-icons/ri";
-
 import '../input.css'
 
-export default function Home() {
+
+
+
+
+  
+
+
+
+
+export default  function Home() {
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-white">
 
@@ -36,10 +44,12 @@ export default function Home() {
 
             <div className="flex w-100 mb-10 justify-between">
               <label className="flex item-center text-xs"><input type="checkbox" name="remember" className="mr-1"/>Remember me</label>
-              <a href="#" className="text-xs hover:text-green-500">forget password ?</a>
+              <a href= "./forget-password" className="text-xs hover:text-green-500">forget password ?</a>
             </div>
 
             <a href="#" className="border-2 border-green-500 rounded-full px-12 py-2 inline-block font-semibold hover:border-white hover:text-green-500">Sign In</a>
+
+      
 
             </div>
 
@@ -50,7 +60,8 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-2">Hello World!!!</h2>
             <div className="border-2 w-10 border-white inline-block mb-2"></div>
             <p className="mb-10">Fill up personal information and start journey with us.</p>
-            <a href="./signUp" className="border-2 border-white rounded-full px-12 py-2 inline-block font-semibold hover:bg-white hover:text-green-500">Sign Up</a>
+            <a href="./signUp" className="border-2 border-white rounded-full px-12 py-2 inline-block font-semibold hover:bg-white hover:text-green-500"
+            >Sign Up</a>
           </div>
 
         </div>
@@ -59,3 +70,5 @@ export default function Home() {
     </div>
   );
 }
+
+
